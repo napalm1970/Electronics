@@ -1,0 +1,85 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="LedBar" CircId="LedBar-5" mainComp="false" Show_id="false" Show_Val="false" Pos="440,168" rotation="0" hflip="1" vflip="1" label="LedBar-5" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Size="8 _Диодов" Color="Red" Grounded="true" Threshold="1.8 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-23" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="392,168" rotation="0" hflip="1" vflip="1" label="ResistorDip-23" idLabPos="-24,-40" labelrot="0" valLabPos="5,-26" valLabRot="90" Resistance="220 Ω" Size="8 _Резист." />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-40" mainComp="false" Show_id="false" Show_Val="false" Pos="108,348" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-40" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-41" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="152,348" rotation="0" hflip="1" vflip="1" label="Resistor-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="4.7 kΩ" />
+
+<item itemtype="MCU" CircId="mega128-76" mainComp="false" Show_id="false" Show_Val="false" Pos="144,152" rotation="0" hflip="1" vflip="1" label="mega128-76" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="src/timercounter.hex" Auto_Load="true" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="LedBar" CircId="LedBar-95" mainComp="false" Show_id="false" Show_Val="false" Pos="460,356" rotation="0" hflip="1" vflip="1" label="LedBar-95" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Size="8 _Диодов" Color="Purple" Grounded="true" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-96" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="396,356" rotation="0" hflip="1" vflip="1" label="ResistorDip-96" idLabPos="-24,-40" labelrot="0" valLabPos="5,-26" valLabRot="90" Resistance="200 Ω" Size="8 _Резист." />
+
+<item itemtype="Connector" uid="connector-97" startpinid="ResistorDip-23-resistor0-ePin1" endpinid="LedBar-5-led0-pinP" pointList="408,144,424,144" />
+
+<item itemtype="Connector" uid="connector-98" startpinid="ResistorDip-23-resistor1-ePin3" endpinid="LedBar-5-led1-pinP" pointList="408,152,424,152" />
+
+<item itemtype="Connector" uid="connector-99" startpinid="ResistorDip-23-resistor2-ePin5" endpinid="LedBar-5-led2-pinP" pointList="408,160,424,160" />
+
+<item itemtype="Connector" uid="connector-100" startpinid="ResistorDip-23-resistor3-ePin7" endpinid="LedBar-5-led3-pinP" pointList="408,168,424,168" />
+
+<item itemtype="Connector" uid="connector-101" startpinid="ResistorDip-23-resistor4-ePin9" endpinid="LedBar-5-led4-pinP" pointList="408,176,424,176" />
+
+<item itemtype="Connector" uid="connector-102" startpinid="ResistorDip-23-resistor5-ePin11" endpinid="LedBar-5-led5-pinP" pointList="408,184,424,184" />
+
+<item itemtype="Connector" uid="connector-103" startpinid="ResistorDip-23-resistor6-ePin13" endpinid="LedBar-5-led6-pinP" pointList="408,192,424,192" />
+
+<item itemtype="Connector" uid="connector-104" startpinid="ResistorDip-23-resistor7-ePin15" endpinid="LedBar-5-led7-pinP" pointList="408,200,424,200" />
+
+<item itemtype="Connector" uid="connector-105" startpinid="Fixed Voltage-40-outnod" endpinid="Resistor-41-lPin" pointList="124,348,136,348" />
+
+<item itemtype="Connector" uid="connector-106" startpinid="ResistorDip-23-resistor0-ePin0" endpinid="mega128-76-PORTA0" pointList="376,144,376,120,264,120,264,144" />
+
+<item itemtype="Connector" uid="connector-107" startpinid="ResistorDip-23-resistor1-ePin2" endpinid="mega128-76-PORTA1" pointList="376,152,360,152,360,124,272,124,272,144" />
+
+<item itemtype="Connector" uid="connector-108" startpinid="mega128-76-PORTA2" endpinid="ResistorDip-23-resistor2-ePin4" pointList="280,144,280,128,356,128,356,160,376,160" />
+
+<item itemtype="Connector" uid="connector-109" startpinid="ResistorDip-23-resistor3-ePin6" endpinid="mega128-76-PORTA3" pointList="376,168,304,168" />
+
+<item itemtype="Connector" uid="connector-110" startpinid="mega128-76-PORTA4" endpinid="ResistorDip-23-resistor4-ePin8" pointList="304,176,376,176" />
+
+<item itemtype="Connector" uid="connector-111" startpinid="ResistorDip-23-resistor5-ePin10" endpinid="mega128-76-PORTA5" pointList="376,184,304,184" />
+
+<item itemtype="Connector" uid="connector-112" startpinid="mega128-76-PORTA6" endpinid="ResistorDip-23-resistor6-ePin12" pointList="304,192,376,192" />
+
+<item itemtype="Connector" uid="connector-113" startpinid="ResistorDip-23-resistor7-ePin14" endpinid="mega128-76-PORTA7" pointList="376,200,304,200" />
+
+<item itemtype="Connector" uid="connector-114" startpinid="ResistorDip-96-resistor0-ePin1" endpinid="LedBar-95-led0-pinP" pointList="412,332,444,332" />
+
+<item itemtype="Connector" uid="connector-115" startpinid="ResistorDip-96-resistor1-ePin3" endpinid="LedBar-95-led1-pinP" pointList="412,340,444,340" />
+
+<item itemtype="Connector" uid="connector-116" startpinid="ResistorDip-96-resistor2-ePin5" endpinid="LedBar-95-led2-pinP" pointList="412,348,444,348" />
+
+<item itemtype="Connector" uid="connector-117" startpinid="ResistorDip-96-resistor3-ePin7" endpinid="LedBar-95-led3-pinP" pointList="412,356,444,356" />
+
+<item itemtype="Connector" uid="connector-118" startpinid="ResistorDip-96-resistor4-ePin9" endpinid="LedBar-95-led4-pinP" pointList="412,364,444,364" />
+
+<item itemtype="Connector" uid="connector-119" startpinid="ResistorDip-96-resistor5-ePin11" endpinid="LedBar-95-led5-pinP" pointList="412,372,444,372" />
+
+<item itemtype="Connector" uid="connector-120" startpinid="ResistorDip-96-resistor6-ePin13" endpinid="LedBar-95-led6-pinP" pointList="412,380,444,380" />
+
+<item itemtype="Connector" uid="connector-121" startpinid="ResistorDip-96-resistor7-ePin15" endpinid="LedBar-95-led7-pinP" pointList="412,388,444,388" />
+
+<item itemtype="Connector" uid="connector-122" startpinid="ResistorDip-96-resistor0-ePin0" endpinid="mega128-76-PORTC0" pointList="380,332,380,272,304,272" />
+
+<item itemtype="Connector" uid="connector-123" startpinid="ResistorDip-96-resistor1-ePin2" endpinid="mega128-76-PORTC1" pointList="380,340,376,340,376,264,304,264" />
+
+<item itemtype="Connector" uid="connector-124" startpinid="ResistorDip-96-resistor2-ePin4" endpinid="mega128-76-PORTC2" pointList="380,348,372,348,372,256,304,256" />
+
+<item itemtype="Connector" uid="connector-125" startpinid="ResistorDip-96-resistor3-ePin6" endpinid="mega128-76-PORTC3" pointList="380,356,364,356,364,248,304,248" />
+
+<item itemtype="Connector" uid="connector-126" startpinid="ResistorDip-96-resistor4-ePin8" endpinid="mega128-76-PORTC4" pointList="380,364,356,364,356,240,304,240" />
+
+<item itemtype="Connector" uid="connector-127" startpinid="ResistorDip-96-resistor5-ePin10" endpinid="mega128-76-PORTC5" pointList="380,372,348,372,348,232,304,232" />
+
+<item itemtype="Connector" uid="connector-128" startpinid="ResistorDip-96-resistor6-ePin12" endpinid="mega128-76-PORTC6" pointList="380,380,340,380,340,224,304,224" />
+
+<item itemtype="Connector" uid="connector-129" startpinid="ResistorDip-96-resistor7-ePin14" endpinid="mega128-76-PORTC7" pointList="380,388,328,388,328,216,304,216" />
+
+<item itemtype="Connector" uid="connector-130" startpinid="Resistor-41-rPin" endpinid="mega128-76-RST" pointList="168,348,184,348,184,312" />
+
+</circuit>

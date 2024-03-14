@@ -1,0 +1,64 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/napalm/SkladWin/projects/avr/girlanda2/include",
+                "/home/napalm/SkladWin/projects/avr/girlanda2/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/cores/MegaCore",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/variants/64-pin-avr",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/AVR_examples/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/EEPROM/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Optiboot_flasher/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/SD/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/SPI/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Servo/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/SoftwareSerial/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Timer/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/napalm/SkladWin/projects/avr/girlanda2/include",
+                    "/home/napalm/SkladWin/projects/avr/girlanda2/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/cores/MegaCore",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/variants/64-pin-avr",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/AVR_examples/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/EEPROM/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Optiboot_flasher/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/SD/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/SPI/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Servo/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/SoftwareSerial/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Timer/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-megacore/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60106",
+                "ARDUINO_AVR_ATmega128",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega128__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega128",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

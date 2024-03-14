@@ -1,0 +1,5 @@
+{
+    "cortex-debug.gdbPath": "/home/napalm/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gdb",
+    "cortex-debug.stlinkPath.linux": "null",
+    "cortex-debug.stutilPath": "/home/napalm/.platformio/packages/tool-stm32duino/stlink/st-util"
+}

@@ -1,0 +1,66 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/napalm/PlatformIO/Projects/ESP8266_ToolChain/include",
+                "/home/napalm/PlatformIO/Projects/ESP8266_ToolChain/src",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/extra_include",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/driver_lib/include",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/espressif",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv4",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv6",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/nopoll",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/ssl",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/json",
+                "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/openssl",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/napalm/PlatformIO/Projects/ESP8266_ToolChain/include",
+                    "/home/napalm/PlatformIO/Projects/ESP8266_ToolChain/src",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/extra_include",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/driver_lib/include",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/espressif",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv4",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv6",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/nopoll",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/ssl",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/json",
+                    "/home/napalm/.platformio/packages/framework-esp8266-nonos-sdk/include/openssl",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60113",
+                "ESP8266",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_ESP8266_NODEMCU",
+                "F_CPU=80000000L",
+                "__ets__",
+                "ICACHE_FLASH",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/napalm/.platformio/packages/toolchain-xtensa@1.40802.0/bin/xtensa-lx106-elf-gcc",
+            "compilerArgs": [
+                "-mlongcalls",
+                "-mtext-section-literals",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

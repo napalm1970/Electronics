@@ -1,0 +1,164 @@
+[
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/CDC.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/CDC.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/CDC.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial0.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial0.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial1.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial1.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial2.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial2.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial3.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/HardwareSerial3.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/IPAddress.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/IPAddress.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/IPAddress.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/PluggableUSB.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/PluggableUSB.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/PluggableUSB.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/Print.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/Print.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/Stream.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/Stream.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/Stream.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/Tone.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/Tone.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/USBCore.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/USBCore.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/USBCore.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/WInterrupts.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/WInterrupts.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/WMath.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/WMath.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/WString.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/WString.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/abi.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/abi.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/abi.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/hooks.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/hooks.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/main.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/main.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/new.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/new.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_analog.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_analog.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_digital.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_digital.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/FrameworkArduino/wiring_extras.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_extras.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_extras.cpp",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring_extras.cpp.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega16 -x assembler-with-cpp -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard -c -o .pio/build/ATmega16/FrameworkArduino/wiring_pulse.S.o /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_pulse.S",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_pulse.S",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring_pulse.S.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_pulse.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_pulse.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/ATmega16/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard /home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_shift.c",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore/wiring_shift.c",
+        "output": ".pio/build/ATmega16/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/ATmega16/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega16 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60113 -DARDUINO_AVR_ATmega16 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore -I/home/napalm/.platformio/packages/framework-arduino-avr-mightycore/variants/standard src/main.cpp",
+        "directory": "/home/napalm/SkladWin/projects/avr/timercounter",
+        "file": "src/main.cpp",
+        "output": ".pio/build/ATmega16/src/main.cpp.o"
+    }
+]
