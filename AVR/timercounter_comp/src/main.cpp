@@ -15,24 +15,16 @@
 
 ISR(TIMER1_COMPA_vect)
 {
-  // TCCR1B = 0b00000000; // Prescaller 64 byte.
-
-  // for (int i = 0; i < 5; i++)
-  // {
     PORTC = 0b00000001;
     _delay_ms(500);
     PORTC = 0x00000000;
     _delay_ms(500);
-  // }
-
-  // TCNT1 = 0;     // Set counter.
-  // TCCR1B = 0b00000011; // Prescaller 64 byte.
 }
 
 int main(void)
 {
-  DDRC = 0b11111111;
-  PORTC = 0b00000000;
+  DDRC = 0b00000001;
+  PORTC = 0x00;
 
   DDRA = 0xFF;
   PORTA = 0b00000000;

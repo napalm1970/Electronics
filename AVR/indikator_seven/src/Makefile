@@ -1,19 +1,19 @@
 MCU=atmega128
 # Clock speed used (after divider), mostly for delay functions
-CLK=1000000
+CLK=8000000
 # Name of project output file
-PROJ=seven
+PROJ=seven_segments
 # List of source files
 SOURCES=main.cpp
 
 # List of object files generated from source files
-OBJ=$(SOURCES:.cpp=.o)
+OBJ=$(SOURCES:.c=.o)
 
 all: $(PROJ).hex
 
 # Generated object files
-.cpp.o:
-	avr-gcc -ggdb -gdwarf-2 -g3 -O0 -w -Os -DF_CPU=$(CLK) -mmcu=$(MCU) -c -o $@ $<
+.c.o:
+	avr-gcc -g -w -Os -DF_CPU=$(CLK) -mmcu=$(MCU) -c -o $@ $<
 
 # Generate executable
 $(PROJ).elf: $(OBJ)
@@ -28,4 +28,4 @@ clean:
 
 # Install flashes the code
 install:
-	avrdude -c  usbasp -p $(MCU) -U flash:w:$(PROJ).hex
+	avrdude -c usbasp -p $(MCU) -U flash:w:$(PROJ).hex
