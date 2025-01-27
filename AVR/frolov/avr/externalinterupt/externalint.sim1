@@ -1,0 +1,67 @@
+<circuit version="1.1.0-SR1" rev="2019" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="MCU" CircId="mega128-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,-208" rotation="0" hflip="1" vflip="1" label="mega128-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program=".pio/build/program_via_USBasp/firmware.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="EIMSK,EICRA,EIFR" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Tunnel" CircId="Tunnel-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-168" rotation="0" hflip="1" vflip="1" label="Tunnel-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-168" rotation="-180" hflip="1" vflip="1" label="Fixed Voltage-4" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-156,-40" rotation="-90" hflip="1" vflip="1" label="Tunnel-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,-120" rotation="0" hflip="1" vflip="1" label="Tunnel-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CH1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-9" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-8" rotation="0" hflip="1" vflip="1" label="Tunnel-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CH2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-10" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-32" rotation="0" hflip="1" vflip="1" label="Tunnel-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CH1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-11" mainComp="false" Show_id="false" Show_Val="false" Pos="4,-112" rotation="180" hflip="1" vflip="1" label="Tunnel-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CH2" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-18" mainComp="false" Show_id="false" Show_Val="false" Pos="188,-216" rotation="0" hflip="1" vflip="1" label="Ground-18" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-19" mainComp="false" Show_id="false" Show_Val="false" Pos="188,-248" rotation="90" hflip="1" vflip="1" label="Tunnel-19" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-20" mainComp="false" Show_id="false" Show_Val="false" Pos="88,-192" rotation="90" hflip="1" vflip="1" label="Tunnel-20" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-21" mainComp="false" Show_id="false" Show_Val="false" Pos="168,-108" rotation="180" hflip="1" vflip="1" label="Tunnel-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Push" CircId="Push-22" mainComp="false" Show_id="false" Show_Val="false" Pos="120,-108" rotation="0" hflip="1" vflip="1" label="Push-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Resistor" CircId="Resistor-23" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="88,-144" rotation="90" hflip="1" vflip="1" label="Resistor-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Tunnel" CircId="Tunnel-24" mainComp="false" Show_id="false" Show_Val="false" Pos="72,-108" rotation="0" hflip="1" vflip="1" label="Tunnel-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="pd1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,-36" rotation="270" hflip="1" vflip="1" label="Tunnel-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="pd1" IsBus="false" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-28" mainComp="false" Show_id="false" Show_Val="false" Pos="68,-32" rotation="0" hflip="1" vflip="1" label="FreqMeter-28" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-29" mainComp="false" Show_id="false" Show_Val="false" Pos="68,-8" rotation="0" hflip="1" vflip="1" label="FreqMeter-29" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="Node" CircId="Node-27" mainComp="false" Pos="88,-108" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Tunnel-3-pin" endpinid="Fixed Voltage-4-outnod" pointList="-292,-168,-272,-168" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Tunnel-5-pin" endpinid="mega128-1-RST" pointList="-156,-40,-156,-48" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="Tunnel-8-pin" endpinid="mega128-1-PORTB0" pointList="-232,-120,-204,-120" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="Tunnel-19-pin" endpinid="Ground-18-Gnd" pointList="188,-248,188,-232" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="Tunnel-11-pin" endpinid="mega128-1-PORTC3" pointList="4,-112,-36,-112" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Push-22-switch0pinN" endpinid="Tunnel-21-pin" pointList="136,-108,168,-108" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="Tunnel-20-pin" endpinid="Resistor-23-lPin" pointList="88,-192,88,-160" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Tunnel-25-pin" endpinid="mega128-1-PORTD1" pointList="-108,-36,-108,-48" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Tunnel-24-pin" endpinid="Node-27-1" pointList="72,-108,88,-108" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Resistor-23-rPin" endpinid="Node-27-0" pointList="88,-128,88,-108" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Node-27-2" endpinid="Push-22-pinP0" pointList="88,-108,104,-108" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Tunnel-10-pin" endpinid="FreqMeter-28-lPin" pointList="4,-32,28,-32" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Tunnel-9-pin" endpinid="FreqMeter-29-lPin" pointList="4,-8,28,-8" />
+
+</circuit>

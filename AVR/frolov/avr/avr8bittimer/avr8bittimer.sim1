@@ -1,0 +1,23 @@
+<circuit version="1.1.0-SR1" rev="2019" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="LedBar" CircId="LedBar-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-88" rotation="360" hflip="1" vflip="1" label="LedBar-62" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-68" mainComp="false" Show_id="false" Show_Val="false" Pos="68,-180" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-68" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-69" mainComp="false" Show_id="false" Show_Val="false" Pos="68,-156" rotation="-90" hflip="1" vflip="1" label="Tunnel-69" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,-4" rotation="-90" hflip="1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="MCU" CircId="mega128-73" mainComp="false" Show_id="true" Show_Val="false" Pos="-320,-176" rotation="0" hflip="1" vflip="1" label="mega128-73" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Connector" uid="Connector-214" startpinid="LedBar-62-led6-pinP" endpinid="mega128-73-PORTC1" pointList="-140,-64,-160,-64" />
+
+<item itemtype="Connector" uid="Connector-215" startpinid="mega128-73-PORTC2" endpinid="LedBar-62-led5-pinP" pointList="-160,-72,-140,-72" />
+
+<item itemtype="Connector" uid="Connector-216" startpinid="Tunnel-70-pin" endpinid="mega128-73-RST" pointList="-280,-4,-280,-16" />
+
+<item itemtype="Connector" uid="Connector-222" startpinid="Fixed Voltage-68-outnod" endpinid="Tunnel-69-pin" pointList="68,-164,68,-156" />
+
+<item itemtype="Connector" uid="Connector-223" startpinid="LedBar-62-led7-pinP" endpinid="mega128-73-PORTC0" pointList="-140,-56,-160,-56" />
+
+</circuit>
