@@ -7,7 +7,7 @@ void timer_ctc(void) {
   TCCR0 |= (1 << CS02);  //| (1 << CS20); // Prescaler 64
   TCCR0 |= (1 << COM00); // Toggle compaare match.
 
-  DDRB |= (1 << PB4); // Pin OC2 output.
+  DDRB |= (1 << PB4); // Pin OC0 output.
   OCR0 = 50;          // F = (F_CPU/Prescaler)/(OCR2+1)*2
 }
 

@@ -6,7 +6,7 @@
 
 <item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-104" rotation="-90" hflip="1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
 
-<item itemtype="MCU" CircId="mega128-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-276" rotation="0" hflip="1" vflip="1" label="mega128-73" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program="src/avrctctimer.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="TCCR0,TCNT0,OCR0" MainMcu="true" SerialMon="-1" />
+<item itemtype="MCU" CircId="mega128-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-276" rotation="0" hflip="1" vflip="1" label="mega128-73" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program=".pio/build/program_via_USBasp/firmware.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="TCCR2,OCR2,PORTB,DDRB,TCNT2" MainMcu="true" SerialMon="-1" />
 
 <item itemtype="FreqMeter" CircId="FreqMeter-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-268" rotation="0" hflip="1" vflip="1" label="FreqMeter-76" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
 

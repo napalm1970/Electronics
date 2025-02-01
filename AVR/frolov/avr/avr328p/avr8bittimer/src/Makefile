@@ -2,7 +2,7 @@ MCU=atmega128
 # Clock speed used (after divider), mostly for delay functions
 CLK=1000000
 # Name of project output file
-PROJ=avrctctimer
+PROJ=avr16bittimer
 # List of source files
 SOURCES=main.cpp
 
