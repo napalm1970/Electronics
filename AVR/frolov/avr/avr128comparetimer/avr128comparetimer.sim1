@@ -1,0 +1,51 @@
+<circuit version="1.1.0-SR1" rev="2019" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-68" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,40" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-68" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-69" mainComp="false" Show_id="false" Show_Val="false" Pos="-644,64" rotation="-90" hflip="1" vflip="1" label="Tunnel-69" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,-104" rotation="-90" hflip="1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="MCU" CircId="mega128-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-276" rotation="0" hflip="1" vflip="1" label="mega128-73" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program=".pio/build/program_via_USBasp/firmware.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="TCCR0,TCNT0,OCR0" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-268" rotation="0" hflip="1" vflip="1" label="FreqMeter-76" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,-268" rotation="0" hflip="1" vflip="1" label="Tunnel-80" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PC0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-94" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-156" rotation="180" hflip="1" vflip="1" label="Tunnel-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PC0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-99" mainComp="false" Show_id="false" Show_Val="false" Pos="-452,-44" rotation="0" hflip="1" vflip="1" label="Tunnel-99" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PC0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-100" mainComp="false" Show_id="false" Show_Val="false" Pos="-448,-12" rotation="0" hflip="1" vflip="1" label="Tunnel-100" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PC2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-102" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,-172" rotation="-180" hflip="1" vflip="1" label="Tunnel-102" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PC2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-104" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,-224" rotation="0" hflip="1" vflip="1" label="Tunnel-104" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PC2" IsBus="false" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-105" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-224" rotation="0" hflip="1" vflip="1" label="FreqMeter-105" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-110" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,8" rotation="0" hflip="1" vflip="1" label="TextComponent-110" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="Overflow" />
+
+<item itemtype="TextComponent" CircId="TextComponent-111" mainComp="false" Show_id="false" Show_Val="false" Pos="-440,-76" rotation="0" hflip="1" vflip="1" label="TextComponent-111" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="Compare" />
+
+<item itemtype="Oscope" CircId="Oscope-116" mainComp="false" Show_id="false" Show_Val="false" Pos="-264,4" rotation="0" hflip="1" vflip="1" label="Oscope-116" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="4000000000" TimPos="0,0,0,0," VolDiv="2,2,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,-6.14,0,0," />
+
+<item itemtype="Connector" uid="Connector-216" startpinid="Tunnel-70-pin" endpinid="mega128-73-RST" pointList="-356,-104,-356,-116" />
+
+<item itemtype="Connector" uid="Connector-222" startpinid="Fixed Voltage-68-outnod" endpinid="Tunnel-69-pin" pointList="-644,56,-644,64" />
+
+<item itemtype="Connector" uid="Connector-257" startpinid="Tunnel-80-pin" endpinid="FreqMeter-76-lPin" pointList="-176,-268,-156,-268" />
+
+<item itemtype="Connector" uid="Connector-255" startpinid="mega128-73-PORTC0" endpinid="Tunnel-94-pin" pointList="-236,-156,-216,-156" />
+
+<item itemtype="Connector" uid="Connector-263" startpinid="mega128-73-PORTC1" endpinid="mega128-73-PORTC1" pointList="-236,-164,-236,-164" />
+
+<item itemtype="Connector" uid="Connector-266" startpinid="Tunnel-102-pin" endpinid="mega128-73-PORTC2" pointList="-212,-172,-236,-172" />
+
+<item itemtype="Connector" uid="Connector-268" startpinid="Tunnel-104-pin" endpinid="FreqMeter-105-lPin" pointList="-172,-224,-156,-224" />
+
+<item itemtype="Connector" uid="Connector-288" startpinid="Tunnel-99-pin" endpinid="Oscope-116-Pin0" pointList="-452,-44,-352,-44" />
+
+<item itemtype="Connector" uid="Connector-289" startpinid="Tunnel-100-pin" endpinid="Oscope-116-Pin1" pointList="-448,-12,-352,-12" />
+
+</circuit>
