@@ -2,7 +2,7 @@
 
 #include <avr/io.h>
 
-void timer_ctc(void) {
+void timer8bit_ctc(void) {
   TCCR0A |= (1 << WGM01);              // CTC mode.
   TCCR0B |= (1 << CS00) | (1 << CS01); //| (1 << CS20); // Prescaler 64
   TCCR0A |= (1 << COM0A0);             // Toggle compaare match.
@@ -12,7 +12,7 @@ void timer_ctc(void) {
 }
 
 int main() {
-  timer_ctc();
+  timer8bit_ctc();
 
   while (1) {
   }

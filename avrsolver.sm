@@ -4,7 +4,7 @@
   <settings ppi="96">
     <identity>
       <id>2928a389-7f38-4fd2-b9b8-98f56f62c285</id>
-      <revision>7</revision>
+      <revision>13</revision>
     </identity>
     <metadata lang="rus">
       <author>Juri</author>
@@ -33,7 +33,7 @@
     </dependencies>
   </settings>
   <regions type="content">
-    <region left="234" top="9" width="126" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region left="225" top="18" width="126" height="26" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">F_CPU</e>
@@ -42,39 +42,55 @@
         </input>
       </math>
     </region>
-    <region left="234" top="36" width="126" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region left="513" top="18" width="236" height="24" color="#000000" bgColor="#408080" fontSize="10">
+      <text lang="rus" fontFamily="Liberation Sans" fontSize="10">
+        <content>
+          <p style="background-color: #408080;">For 8 bit timer 256, 16 bit timer 65535.</p>
+        </content>
+      </text>
+    </region>
+    <region left="225" top="45" width="118" height="26" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">Prescaler</e>
-          <e type="operand">128</e>
+          <e type="operand">64</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region left="234" top="63" width="78" height="26" color="#000000" bgColor="#ffffff" fontSize="10">
+    <region left="513" top="54" width="86" height="24" color="#000000" fontSize="10">
+      <text lang="rus" fontFamily="Liberation Sans" fontSize="10">
+        <content>
+          <p>N bits timer.</p>
+        </content>
+      </text>
+    </region>
+    <region left="225" top="63" width="70" height="26" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">OCR</e>
-          <e type="operand">128</e>
+          <e type="operand">10</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
     </region>
-    <region left="369" top="108" width="100" height="24" color="#000000" fontSize="10">
+    <region left="225" top="90" width="70" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">N</e>
+          <e type="operand">1024</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="36" top="180" width="119" height="24" color="#000000" bgColor="#ffff00" fontSize="10">
       <text lang="rus" fontFamily="Liberation Sans" fontSize="10">
         <content>
-          <p>Normal  mode.</p>
+          <p style="background-color: #ffff00;">Timer CTC mode.</p>
         </content>
       </text>
     </region>
-    <region left="27" top="117" width="119" height="24" color="#000000" fontSize="10">
-      <text lang="rus" fontFamily="Liberation Sans" fontSize="10">
-        <content>
-          <p>Timer CTC mode.</p>
-        </content>
-      </text>
-    </region>
-    <region left="27" top="144" width="196" height="68" color="#000000" bgColor="#ffff00" fontSize="10">
+    <region left="36" top="207" width="212" height="68" color="#000000" bgColor="#ffff00" fontSize="10">
       <math>
         <input>
           <e type="operand">f</e>
@@ -92,23 +108,30 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">30.281</e>
+          <e type="operand">710.2273</e>
         </result>
       </math>
     </region>
-    <region left="360" top="144" width="221" height="45" color="#000000" fontSize="10">
+    <region left="504" top="207" width="167" height="24" color="#000000" bgColor="#80ff80" fontSize="10">
+      <text lang="rus" fontFamily="Liberation Sans" fontSize="10">
+        <content>
+          <p style="background-color: #80ff80;">Normal, Fast PWM mode.</p>
+        </content>
+      </text>
+    </region>
+    <region left="504" top="243" width="207" height="45" color="#000000" bgColor="#80ff80" fontSize="10">
       <math>
         <input>
           <e type="operand">f</e>
           <e type="operand">F_CPU</e>
           <e type="operand">Prescaler</e>
-          <e type="operand">256</e>
+          <e type="operand">N</e>
           <e type="operator" args="2">*</e>
           <e type="operator" args="2">/</e>
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">30.5176</e>
+          <e type="operand">61.0352</e>
         </result>
       </math>
     </region>
