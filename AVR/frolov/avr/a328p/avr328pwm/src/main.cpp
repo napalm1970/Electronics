@@ -1,5 +1,6 @@
 // CTC - Clear Timer on Compare match
 
+#include <avr/interrupt.h>
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -36,11 +37,23 @@ void timer8bit_phasecorrectpwm(void) {
   // ICR1 = 1000;
 }
 void timer_phasefreqpwm(void) {
-  TCCR1A |= (1 << COM1A1); // | (1 << WGM10);             // | (1 << COM1A0);
-  TCCR1B |= (1 << CS10) | (1 << CS12) | (1 << WGM13); //(1 << WGM13) |
+  TCCR1A |= (1 << COM1A1); // | (1 << WGM10); // | (1 << COM1A0);
+  TCCR1B |= (1 << CS10) | (1 << CS12) | (1 << WGM13);
+  OCR1A = 50;
+  ICR1 = 200;
+
   DDRB |= (1 << PB1);
-  OCR1A = 311;
-  ICR1 = 500;
+}
+
+ISR(TIMER1_COMPA_vect) {
+  if (OCR1A < ICR1) {
+    OCR1A += 5;
+    _delay_ms(10);
+  }
+
+  if (OCR1A == ICR1) {
+    OCR1A = 50;
+  }
 }
 
 int main() {
@@ -48,20 +61,30 @@ int main() {
   // timer16bit_fastpwm();
   // timer8bit_phasecorrectpwm();
 
+  TIMSK1 |= (1 << OCIE1A);
+
   timer_phasefreqpwm();
 
-  // DDRC = 0x00;
-  // PORTC = 0xff;
-  //
-  // while (1) {
-  //   if (~PINC & (1 << 0)) {
-  //     OCR1A += 5;
-  //     _delay_ms(200);
-  //     if (OCR1A >= 1018) {
-  //       OCR1A = 511;
-  //     }
-  //   }
-  // }
+  DDRC = 0x00;
+  PORTC = 0xff;
+  sei();
+  while (1) {
+    // if (~PINC & (1 << 0)) {
+    //   OCR1A += 5;
+    //   _delay_ms(200);
+    //   if (OCR1A >= 1018) {
+    //     OCR1A = 511;
+    //   }
+    // }
+    //
+    // if (~PINC & (1 << 1)) {
+    //   OCR1A -= 5;
+    //   _delay_ms(200);
+    //   if (OCR1A < 0) {
+    //     OCR1A = 511;
+    //   }
+    // }
+  }
 
   return 0;
 }

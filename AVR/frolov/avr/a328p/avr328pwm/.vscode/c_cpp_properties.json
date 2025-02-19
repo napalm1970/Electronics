@@ -8,29 +8,29 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Electroniks/AVR/frolov/avr/a328p/avrctctimer/include",
-                "C:/Electroniks/AVR/frolov/avr/a328p/avrctctimer/src",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/variants/standard",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/frolov/avr/a328p/avr328pwm/include",
+                "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/frolov/avr/a328p/avr328pwm/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Electroniks/AVR/frolov/avr/a328p/avrctctimer/include",
-                    "C:/Electroniks/AVR/frolov/avr/a328p/avrctctimer/src",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/variants/standard",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/napal/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/frolov/avr/a328p/avr328pwm/include",
+                    "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/frolov/avr/a328p/avr328pwm/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },
@@ -40,12 +40,13 @@
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
                 "ARDUINO=10808",
+                "__PLATFORMIO_BUILD_DEBUG__",
                 "__AVR_ATmega328P__",
                 ""
             ],
             "cStandard": "gnu11",
             "cppStandard": "gnu++11",
-            "compilerPath": "C:/Users/napal/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerPath": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
             "compilerArgs": [
                 "-mmcu=atmega328p",
                 ""

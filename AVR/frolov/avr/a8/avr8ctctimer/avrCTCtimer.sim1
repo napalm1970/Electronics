@@ -1,0 +1,47 @@
+<circuit version="1.1.0-SR1" rev="2019" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-68" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,44" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-68" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-69" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,68" rotation="-90" hflip="1" vflip="1" label="Tunnel-69" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-124,-48" rotation="-90" hflip="1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-40,-208" rotation="0" hflip="1" vflip="1" label="FreqMeter-76" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,-208" rotation="0" hflip="1" vflip="1" label="Tunnel-80" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PB1_" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-94" mainComp="false" Show_id="false" Show_Val="false" Pos="-44,-56" rotation="630" hflip="1" vflip="1" label="Tunnel-94" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PB1_" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-97" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,24" rotation="180" hflip="1" vflip="1" label="Tunnel-97" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PB1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-98" mainComp="false" Show_id="false" Show_Val="false" Pos="144,-176" rotation="0" hflip="1" vflip="1" label="Tunnel-98" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PB1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-99" mainComp="false" Show_id="false" Show_Val="false" Pos="144,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-99" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PB1_" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-100" mainComp="false" Show_id="false" Show_Val="false" Pos="-272,-120" rotation="0" hflip="1" vflip="1" label="Tunnel-100" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PB1" IsBus="false" />
+
+<item itemtype="FreqMeter" CircId="FreqMeter-101" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,-120" rotation="0" hflip="1" vflip="1" label="FreqMeter-101" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
+
+<item itemtype="MCU" CircId="mega8-102" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,-88" rotation="0" hflip="1" vflip="1" label="mega8-102" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program=".pio/build/program_via_USBasp/firmware.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" varList="OCR1AH,OCR1AL,DDRB,PORTB" MainMcu="true" eeprom="18,192,25,192,24,192,23,192,22,192,21,192,20,192,19,192,18,192,17,192,16,192,15,192,14,192,13,192,12,192,11,192,10,192,9,192,8,192,17,36,31,190,207,229,212,224,222,191,205,191,19,208,20,192,228,207,142,181,136,96,142,189,142,181,131,96,142,189,143,181,128,100,143,189,135,179,130,96,135,187,132,230,144,224,155,189,138,189,8,149,238,223,255,207,248,148,255,207,0," SerialMon="-1" />
+
+<item itemtype="MCU" CircId="m8 TQFP-103" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,-168" rotation="0" hflip="1" vflip="1" label="m8 TQFP-103" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program=".pio/build/program_via_USBasp/firmware.hex" Auto_Load="true" saveEepr="true" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" MainMcu="false" SerialMon="-1" />
+
+<item itemtype="Oscope" CircId="Oscope-104" mainComp="false" Show_id="false" Show_Val="false" Pos="272,-132" rotation="0" hflip="1" vflip="1" label="Oscope-104" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="1000000000" TimPos="-2015701929,-2015701929,-2015701929,-2015701929," VolDiv="2,2.56461,2,2," Tunnels=",,,," Trigger="4" Filter="0.1 V" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="4.44,-3.6161,0,0," />
+
+<item itemtype="MCU" CircId="Signal-106" mainComp="false" Show_id="true" Show_Val="true" Pos="-428,140" rotation="0" hflip="1" vflip="1" label="Signal-106" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto_Load="false" Logic_Symbol="true" MainMcu="false" />
+
+<item itemtype="Connector" uid="Connector-222" startpinid="Fixed Voltage-68-outnod" endpinid="Tunnel-69-pin" pointList="-72,60,-72,68" />
+
+<item itemtype="Connector" uid="Connector-225" startpinid="Tunnel-80-pin" endpinid="FreqMeter-76-lPin" pointList="-92,-208,-80,-208" />
+
+<item itemtype="Connector" uid="Connector-257" startpinid="Tunnel-100-pin" endpinid="FreqMeter-101-lPin" pointList="-272,-120,-252,-120" />
+
+<item itemtype="Connector" uid="Connector-261" startpinid="Tunnel-98-pin" endpinid="Oscope-104-Pin0" pointList="144,-176,184,-176,184,-180" />
+
+<item itemtype="Connector" uid="Connector-262" startpinid="mega8-102-PORTB1" endpinid="Tunnel-97-pin" pointList="-200,24,-184,24" />
+
+<item itemtype="Connector" uid="Connector-263" startpinid="Tunnel-99-pin" endpinid="Oscope-104-Pin1" pointList="144,-148,184,-148" />
+
+<item itemtype="Connector" uid="Connector-266" startpinid="Tunnel-94-pin" endpinid="m8 TQFP-103-PORTB1" pointList="-44,-56,-44,-72" />
+
+</circuit>
