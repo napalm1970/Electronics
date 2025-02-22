@@ -1,0 +1,63 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/LevelRele/include",
+                "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/LevelRele/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/Flash/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/LevelRele/include",
+                    "/home/napalm/PlatformIO/Projects/Electronics/Electronics/AVR/LevelRele/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/Flash/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                    "/home/napalm/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60117",
+                "ARDUINO_AVR_ATmega8",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                "__AVR_ATmega8__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/home/napalm/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega8",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
